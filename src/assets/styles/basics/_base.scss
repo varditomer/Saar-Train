@@ -36,5 +36,6 @@ html:focus-within {
 }
 
 body {
-    
+    height: 100vh;
+    @include flex-center;
 }
