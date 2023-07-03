@@ -40,6 +40,17 @@ body {
     @include flex-center;
 }
 
-#root, .main-app {
+#root,
+.main-app {
+    height: 100%;
+}
+
+a {
+    width: max-content;
+    margin-inline: auto;
+}
+
+.page {
+    @include flex-column;
     height: 100%;
 }
