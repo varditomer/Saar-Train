@@ -43,6 +43,7 @@ body {
 #root,
 .main-app {
     height: 100%;
+    width: 100%;
 }
 
 a {
@@ -52,5 +53,8 @@ a {
 
 .page {
     @include flex-column;
+    align-items: center;
     height: 100%;
+    width: 100%;
+    padding: 40px;
 }
