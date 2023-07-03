@@ -39,3 +39,7 @@ body {
     height: 100vh;
     @include flex-center;
 }
+
+#root, .main-app {
+    height: 100%;
+}
